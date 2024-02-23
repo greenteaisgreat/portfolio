@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import { AiOutlineMenu } from 'react-icons/ai'
+import Sidenav from './components/Sidenav'
 
 const App = () => {
   return (
     <>
-      <AiOutlineMenu />
+      <Sidenav />
     </>
   )
 }
