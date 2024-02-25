@@ -13,8 +13,10 @@ const Home = () => {
         >
             <div className="sm: absolute left-0 top-0 h-screen w-full bg-white/20 pl-20 text-center">
                 <div className="m-auto flex h-full w-full max-w-[700px] flex-col items-center justify-center sm:items-center md:items-start lg:items-start">
-                    <h1 className=" text-4xl">Howdy! My name is Nathan</h1>
-                    <h2 className="sm:items-start">
+                    <h1 className="text-4xl font-bold text-gray-900">
+                        Howdy! My name is Nathan
+                    </h1>
+                    <h2 className="sm:items-start ">
                         <div style={{ color: textColor }}>
                             <TypeAnimation
                                 sequence={[
@@ -47,28 +49,19 @@ const Home = () => {
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#42409E'),
-                                    `I'm a Skate-Boarder`,
-                                    1000,
-                                    `I'm a`,
-                                    50,
-                                    () => setTextColor('#0F9E7E'),
-                                    `I'm a Surfer`,
-                                    1000,
-                                    `I'm a`,
-                                    50,
                                     () => setTextColor('#3A3698'),
                                 ]}
                                 speed={50}
                                 style={{
                                     fontSize: '2em',
                                     textAlign: 'left',
+                                    fontWeight: 'bold',
                                 }}
                                 repeat={Infinity}
                             />
                         </div>
                     </h2>
-                    <div>
+                    <div className="flex w-full max-w-[200px] justify-between pt-6">
                         <TfiGithub className="cursor-pointer" size={25} />
                         <RxLinkedinLogo className="cursor-pointer" size={25} />
                         <FaDev className="cursor-pointer" size={25} />
