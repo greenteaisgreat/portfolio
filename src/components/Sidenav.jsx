@@ -18,7 +18,7 @@ const Sidenav = () => {
             <CgMenuMotion
                 onClick={handleNav}
                 className="absolute right-4 top-4 z-[99] md:hidden"
-                size={35}
+                size={50}
             />
             {nav ? (
                 <div className="fixed z-20 flex h-screen w-full flex-col items-center justify-center bg-white/50">
