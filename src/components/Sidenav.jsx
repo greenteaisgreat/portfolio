@@ -5,7 +5,6 @@ import { PiCodeBlockBold } from 'react-icons/pi';
 import { RiOpenSourceLine } from 'react-icons/ri';
 import { TfiWrite } from 'react-icons/tfi';
 import { LuHeartHandshake } from 'react-icons/lu';
-import logo from '../assets/new-logo.svg';
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false);
