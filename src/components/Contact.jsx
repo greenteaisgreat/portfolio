@@ -2,34 +2,71 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div id="contact" className="m-auto max-w-[1040px] p-4 py-8 md:pl-20">
-            <h1 className="py-2 text-center text-4xl font-bold text-[#203467]">
-                Contact
+        <div id="contact" className="m-auto max-w-[1040px] p-4 py-16 md:pl-20">
+            <h1 className="mb-14 text-center text-5xl font-bold text-[#203467]">
+                Let's Chat!
             </h1>
-            <form action="" method="POST" encType="multipart/form-data">
+            <form
+                action="https://getform.io/f/ZdPPN2dK"
+                method="POST"
+                encType="multipart/form-data"
+            >
                 <div className="grid w-full gap-4 py-2 md:grid-cols-2">
-                    <div>
-                        <label>Name</label>
-                        <input type="text" name="name" />
+                    <div className="flex flex-col">
+                        <label className="py-2 pl-1 text-sm uppercase">
+                            Name
+                        </label>
+                        <input
+                            type="text"
+                            name="name"
+                            className="flex rounded-lg border-2 border-gray-300 p-3"
+                        />
                     </div>
-                    <div>
-                        <label>Phone Number</label>
-                        <input type="text" name="phone" />
+                    <div className="flex flex-col">
+                        <label className="py-2 pl-1 text-sm uppercase">
+                            Phone
+                        </label>
+                        <input
+                            type="text"
+                            name="phone"
+                            className="flex rounded-lg border-2 border-gray-300 p-3"
+                        />
                     </div>
                 </div>
-                <div>
-                    <label>Email</label>
-                    <input type="email" name="email" />
+                <div className="flex flex-col py-2">
+                    <label className="py-2 pl-1 text-sm uppercase">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        className="flex rounded-lg border-2 border-gray-300 p-3"
+                    />
                 </div>
-                <div>
-                    <label>Subject</label>
-                    <input type="text" name="subject" />
+                <div className="flex flex-col py-2">
+                    <label className="py-2 pl-1 text-sm uppercase">
+                        Subject
+                    </label>
+                    <input
+                        className="flex rounded-lg border-2 border-gray-300 p-3"
+                        type="text"
+                        name="subject"
+                    />
                 </div>
-                <div>
-                    <label>Message</label>
-                    <textarea rows="10" name="message">
+                <div className="flex flex-col py-2">
+                    <label className="py-2 pl-1 text-sm uppercase">
+                        Message
+                    </label>
+                    <textarea
+                        className="rounded-lg border-2 border-gray-300 p-3"
+                        rows="10"
+                        name="message"
+                    >
                         {' '}
                     </textarea>
+                </div>
+                <div className="flex justify-center">
+                    <button className=" mt-4 w-full max-w-sm rounded-md bg-[#001b5e] p-4 text-gray-100">
+                        Send Message
+                    </button>
                 </div>
             </form>
         </div>
