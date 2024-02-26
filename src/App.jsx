@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Logo from './components/Logo';
 import SmLogo from './components/SmLogo';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Sidenav />
             <Home />
             <Experience />
+            <Projects />
         </>
     );
 };
