@@ -49,7 +49,7 @@ const Projects = () => {
                     />
                     <ProjectItem
                         img={stopSmokingImg}
-                        title="Stop Smoking Tracker"
+                        title="Cessation Tracker"
                         description="Increase Your Chances of Quitting a Bad Habit via Cognizance"
                         language="Crafted with Vanilla JavaScript"
                         link="https://github.com/greenteaisgreat/stop-smoking-tracker"
