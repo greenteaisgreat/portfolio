@@ -62,9 +62,18 @@ const Home = () => {
                         </div>
                     </h2>
                     <div className="flex w-full max-w-[200px] justify-between pt-6">
-                        <TfiGithub className="cursor-pointer" size={25} />
-                        <RxLinkedinLogo className="cursor-pointer" size={25} />
-                        <FaDev className="cursor-pointer" size={25} />
+                        <a href="https://github.com/greenteaisgreat">
+                            <TfiGithub className="cursor-pointer" size={25} />
+                        </a>
+                        <a href="https://www.linkedin.com/in/nathangbornstein/">
+                            <RxLinkedinLogo
+                                className="cursor-pointer"
+                                size={25}
+                            />
+                        </a>
+                        <a href="https://dev.to/greenteaisgreat">
+                            <FaDev className="cursor-pointer" size={25} />
+                        </a>
                     </div>
                 </div>
             </div>
