@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectItem = ({ img, title, language, description, link }) => {
     return (
-        <div className="delay-40 hover:scale-110ease-in-out group relative flex h-auto w-full items-center justify-center  rounded-xl from-portafino-100 to-portage-300 transition duration-300 hover:hover:-translate-y-1 hover:bg-gradient-to-r">
+        <div className="delay-40 group relative flex h-auto w-full items-center justify-center rounded-xl from-portafino-100 to-portage-300 transition duration-300 hover:-translate-y-1 hover:bg-gradient-to-r">
             <img
                 src={img}
                 alt={title}
@@ -19,7 +19,7 @@ const ProjectItem = ({ img, title, language, description, link }) => {
                     {language}
                 </p>
                 <a href={link}>
-                    <p className="cursor-pointer rounded-lg bg-portage-300 p-3 text-center text-lg font-bold text-gray-700 hover:bg-portafino-100 active:bg-portage-600">
+                    <p className="cursor-pointer rounded-lg bg-portage-300 p-3 text-center text-lg font-bold text-gray-700 transition duration-300 hover:-translate-y-1 hover:bg-portafino-100 active:bg-portage-600">
                         Find Out More
                     </p>
                 </a>
