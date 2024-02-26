@@ -22,7 +22,7 @@ const Experience = () => {
     return (
         <div
             id="experience"
-            className="m-auto max-w-[1040px] p-4 py-20 md:pl-20"
+            className="m-auto max-w-[1040px] p-4 py-16 md:pl-20"
         >
             <h1 className="mb-14 text-center text-5xl font-bold text-[#203467]">
                 Experience
