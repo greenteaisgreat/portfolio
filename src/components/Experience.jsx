@@ -20,11 +20,11 @@ const data = [
 
 const Experience = () => {
     return (
-        <div className="m-auto max-w-[1040px] p-4 py-12 md:pl-20">
-            <h1
-                id="experience"
-                className="mb-10 text-center text-4xl font-bold text-[#001b5e]"
-            >
+        <div
+            id="experience"
+            className="m-auto max-w-[1040px] p-4 py-20 md:pl-20"
+        >
+            <h1 className="mb-14 text-center text-5xl font-bold text-[#203467]">
                 Experience
             </h1>
             {data.map((item, idx) => (
