@@ -7,7 +7,7 @@ import stopSmokingImg from '../assets/stop-smoking.png';
 
 const Projects = () => {
     return (
-        <div className="h-full w-full bg-portage-400 ">
+        <div className="h-full w-full bg-portage-400">
             <div
                 id="opensource"
                 className="m-auto max-w-[1040px] p-4 py-16 md:pl-20"
