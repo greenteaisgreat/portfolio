@@ -12,7 +12,7 @@ const Projects = () => {
                 id="opensource"
                 className="m-auto max-w-[1040px] p-4 py-12 md:pl-20"
             >
-                <h1 className="text-center text-4xl font-bold text-black">
+                <h1 className="text-center text-5xl font-bold text-black">
                     Open-Source Contributions
                 </h1>
                 <p className="py-8 pb-12 text-center text-xl font-medium">
@@ -30,28 +30,28 @@ const Projects = () => {
                         img={prevueImg}
                         title="PreVue3"
                         description="All-in-One Prototyping Tool for Vue Engineers"
-                        language="Vue.js / Express.js / MongoDB"
+                        language="Crafted with Vue.js, Express.js & MongoDB"
                         link="https://github.com/oslabs-beta/PreVue3.0"
                     />
                     <ProjectItem
                         img={pomonotoImg}
                         title="Pomonoto!"
                         description="Combination Pomodoro Timer & Note Taking App"
-                        language="React.js / Express.js / MongoDB"
+                        language="Crafted with React.js, Express.js & MongoDB"
                         link="https://github.com/greenteaisgreat/Pomonoto"
                     />
                     <ProjectItem
                         img={weatherImg}
                         title="Weather.io"
-                        description="Check the Weather Instantly! Powered by OpenWeatherMap API"
-                        language="React.js / Express.js / PostgreSQL"
+                        description="Check the Weather Instantly! Powered by OpenWeatherMap"
+                        language="Crafted with React.js, Express.js & PostgreSQL"
                         link="https://github.com/Weather-io/Weather.io"
                     />
                     <ProjectItem
                         img={stopSmokingImg}
                         title="Stop Smoking Tracker"
                         description="Increase Your Chances of Quitting a Bad Habit via Cognizance"
-                        language="Vanilla JavaScript"
+                        language="Crafted with Vanilla JavaScript"
                         link="https://github.com/greenteaisgreat/stop-smoking-tracker"
                     />
                 </div>
