@@ -9,13 +9,13 @@ const ProjectItem = ({ img, title, language, description, link }) => {
                 className="rounded-xl group-hover:opacity-30"
             />
             <div className="absolute left-[50%] top-[50%] hidden translate-x-[-50%] translate-y-[-50%] group-hover:block">
-                <h3 className="text-center text-5xl font-bold tracking-wider text-gray-800">
+                <h3 className="text-center text-5xl font-bold tracking-wider text-gray-800 drop-shadow-xl">
                     {title}
                 </h3>
-                <p className="text-md pt-5 text-center font-bold text-black">
+                <p className="pt-8 text-center text-xl font-bold text-black drop-shadow-xl">
                     {description}
                 </p>
-                <p className="text-md pb-12 pt-4 text-center font-bold text-black">
+                <p className="pb-12 pt-8 text-center text-sm font-bold text-black drop-shadow-xl">
                     {language}
                 </p>
                 <a href={link}>
