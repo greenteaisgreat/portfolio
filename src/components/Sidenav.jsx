@@ -16,7 +16,7 @@ const Sidenav = () => {
         <>
             <CgMenuMotion
                 onClick={handleNav}
-                className="absolute right-4 top-4 z-[99] cursor-pointer md:hidden"
+                className="fixed right-4 top-4 z-[99] cursor-pointer md:hidden"
                 size={50}
             />
             {nav ? (
