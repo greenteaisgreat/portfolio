@@ -20,7 +20,7 @@ const ProjectItem = ({ img, title, language, description, link }) => {
                 </p>
                 <a href={link}>
                     <p className="cursor-pointer rounded-lg bg-portage-300 p-3 text-center text-lg font-bold text-gray-700 hover:bg-portafino-100 active:bg-portage-600">
-                        Check It Out!
+                        Find Out More
                     </p>
                 </a>
             </div>
