@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="h-full w-full bg-portage-400 ">
             <div
                 id="opensource"
-                className="m-auto max-w-[1040px] p-4 py-12 md:pl-20"
+                className="m-auto max-w-[1040px] p-4 py-16 md:pl-20"
             >
                 <h1 className="text-center text-5xl font-bold text-black">
                     Open-Source Contributions
