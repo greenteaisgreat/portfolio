@@ -66,7 +66,6 @@ const Sidenav = () => {
                         className="m-2 cursor-pointer rounded-2xl bg-gray-100 p-4 shadow-lg shadow-gray-400 transition duration-300 ease-in-out hover:hover:-translate-y-1 hover:scale-110 hover:bg-persimmon-300"
                     >
                         <BiSolidHomeHeart size={22} color="crimson" />
-                        <span></span>
                     </a>
                     <a
                         href="#experience"
