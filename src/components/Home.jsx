@@ -11,7 +11,7 @@ const Home = () => {
             id="home"
             className="to 90% h-screen w-full bg-gradient-to-r from-portafino-600 from-70% via-portage-500 via-70% to-portage-500"
         >
-            <div className="sm: absolute left-0 top-0 h-screen w-full bg-white/20 pl-20 text-center">
+            <div className="h-screen w-full bg-white/20 pl-10 text-center">
                 <div className="m-auto flex h-full w-full max-w-[700px] flex-col items-center justify-center sm:items-center md:items-start lg:items-start">
                     <h1 className="text-4xl font-bold text-gray-900">
                         Howdy! My name is Nathan
