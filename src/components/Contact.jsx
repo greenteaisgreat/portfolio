@@ -59,9 +59,7 @@ const Contact = () => {
                         className="rounded-lg border-2 border-gray-300 p-3"
                         rows="10"
                         name="message"
-                    >
-                        {' '}
-                    </textarea>
+                    ></textarea>
                 </div>
                 <div className="flex justify-center">
                     <button className=" mt-4 w-full max-w-sm rounded-md bg-[#001b5e] p-4 text-gray-100">
