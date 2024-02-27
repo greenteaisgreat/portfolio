@@ -62,16 +62,25 @@ const Home = () => {
                         </div>
                     </h2>
                     <div className="flex w-full max-w-[200px] justify-between pt-6">
-                        <a href="https://github.com/greenteaisgreat">
+                        <a
+                            href="https://github.com/greenteaisgreat"
+                            target="_blank"
+                        >
                             <TfiGithub className="cursor-pointer" size={25} />
                         </a>
-                        <a href="https://www.linkedin.com/in/nathangbornstein/">
+                        <a
+                            href="https://www.linkedin.com/in/nathangbornstein/"
+                            target="_blank"
+                        >
                             <RxLinkedinLogo
                                 className="cursor-pointer"
                                 size={25}
                             />
                         </a>
-                        <a href="https://dev.to/greenteaisgreat">
+                        <a
+                            href="https://dev.to/greenteaisgreat"
+                            target="_blank"
+                        >
                             <FaDev className="cursor-pointer" size={25} />
                         </a>
                     </div>
