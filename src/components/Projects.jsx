@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem';
 import prevueImg from '../assets/prevue.png';
 import pomonotoImg from '../assets/pomonoto.png';
 import weatherImg from '../assets/weatherIO.png';
-import stopSmokingImg from '../assets/stop-smoking.png';
+import ticketingImg from '../assets/ticketing.png';
 
 const Projects = () => {
     return (
@@ -34,11 +34,11 @@ const Projects = () => {
                         link="https://github.com/oslabs-beta/PreVue3.0"
                     />
                     <ProjectItem
-                        img={pomonotoImg}
-                        title="Pomonoto!"
-                        description="Combination Pomodoro Timer & Note Taking App"
-                        language="Crafted with React.js, Express.js & MongoDB"
-                        link="https://github.com/greenteaisgreat/Pomonoto"
+                        img={ticketingImg}
+                        title="I.T. (Intuitive Ticketing)"
+                        description="Ticketing Application with Style & Poise"
+                        language="Crafted with Next.js, Next Router & MongoDB"
+                        link="https://github.com/greenteaisgreat/ticketing-app"
                     />
                     <ProjectItem
                         img={weatherImg}
@@ -48,11 +48,11 @@ const Projects = () => {
                         link="https://github.com/Weather-io/Weather.io"
                     />
                     <ProjectItem
-                        img={stopSmokingImg}
-                        title="Cessation Tracker"
-                        description="Increase Your Chances of Quitting a Bad Habit via Cognizance"
-                        language="Crafted with Vanilla JavaScript"
-                        link="https://github.com/greenteaisgreat/stop-smoking-tracker"
+                        img={pomonotoImg}
+                        title="Pomonoto!"
+                        description="Combination Pomodoro Timer & Note Taking App"
+                        language="Crafted with React.js, Express.js & MongoDB"
+                        link="https://github.com/greenteaisgreat/Pomonoto"
                     />
                 </div>
             </div>
