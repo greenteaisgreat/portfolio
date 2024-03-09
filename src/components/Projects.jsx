@@ -38,7 +38,7 @@ const Projects = () => {
                         title="I.T. (Intuitive Ticketing)"
                         description="Ticketing Application with Style & Poise"
                         language="Crafted with Next.js, Next Router & MongoDB"
-                        link="https://github.com/greenteaisgreat/ticketing-app"
+                        link="https://intuitive-ticketing.vercel.app/"
                     />
                     <ProjectItem
                         img={weatherImg}
