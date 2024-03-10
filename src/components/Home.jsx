@@ -16,7 +16,7 @@ const Home = () => {
                     <h1 className="text-4xl font-bold text-gray-900">
                         Howdy! My name is Nathan
                     </h1>
-                    <h2 className="sm:items-start ">
+                    <h2 className="xs:text-lg mt-4 text-sm sm:items-start">
                         <div style={{ color: textColor }}>
                             <TypeAnimation
                                 sequence={[
