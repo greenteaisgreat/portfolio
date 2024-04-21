@@ -48,7 +48,7 @@ const Sidenav = () => {
                     <a
                         target="_blank"
                         onClick={handleNav}
-                        href="https://docs.google.com/document/d/1OKr0px4eZw-abCp-1mbZHwSSZOhtyVfa6X48szz0FeI/edit?usp=sharing"
+                        href="https://docs.google.com/document/d/1gLGgWUcy0Ez6gstBRDYg-mKbkbgPk1B69dgTYz-d0co/edit?usp=sharing"
                         className="delay-40 m-2 flex w-[75%] cursor-pointer items-center justify-center rounded-2xl bg-gray-100 p-4 shadow-lg shadow-gray-400 transition duration-300 ease-in-out hover:hover:-translate-y-1 hover:scale-110 hover:bg-reef-200 "
                     >
                         <TfiWrite size={22} color="sandybrown" />
@@ -87,7 +87,7 @@ const Sidenav = () => {
                     </a>
                     <a
                         target="_blank"
-                        href="https://docs.google.com/document/d/1OKr0px4eZw-abCp-1mbZHwSSZOhtyVfa6X48szz0FeI/edit?usp=sharing"
+                        href="https://docs.google.com/document/d/1gLGgWUcy0Ez6gstBRDYg-mKbkbgPk1B69dgTYz-d0co/edit?usp=sharing"
                         className="m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 transition duration-300 ease-in-out hover:hover:-translate-y-1 hover:scale-110 hover:bg-reef-200"
                     >
                         <TfiWrite size={22} color="sandybrown" />
