@@ -31,7 +31,7 @@ const Projects = () => {
                         title="PreVue3"
                         description="All-in-One Prototyping Tool for Vue Engineers"
                         language="Crafted with Vue.js, Express.js & MongoDB"
-                        link="https://github.com/oslabs-beta/PreVue3.0"
+                        link="https://prevue3.vercel.app/"
                     />
                     <ProjectItem
                         img={ticketingImg}
