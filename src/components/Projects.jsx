@@ -34,18 +34,18 @@ const Projects = () => {
                         link="https://prevue3.vercel.app/"
                     />
                     <ProjectItem
-                        img={ticketingImg}
-                        title="I.T. (Intuitive Ticketing)"
-                        description="Ticketing Application with Style & Poise"
-                        language="Crafted with Next.js, Next Router & MongoDB"
-                        link="https://intuitive-ticketing.vercel.app/"
-                    />
-                    <ProjectItem
                         img={wurdleImg}
                         title="Würdle"
                         description="Like Wordle, But Way Better"
                         language="Crafted with React.js, Express.js & PostgreSQL"
                         link="https://wvvrdle.vercel.app/"
+                    />
+                    <ProjectItem
+                        img={ticketingImg}
+                        title="I.T. (Intuitive Ticketing)"
+                        description="Ticketing Application with Style & Poise"
+                        language="Crafted with Next.js, Next Router & MongoDB"
+                        link="https://intuitive-ticketing.vercel.app/"
                     />
                     <ProjectItem
                         img={pomonotoImg}
