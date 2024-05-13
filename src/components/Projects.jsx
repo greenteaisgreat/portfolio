@@ -41,18 +41,18 @@ const Projects = () => {
                         link="https://wvvrdle.vercel.app/"
                     />
                     <ProjectItem
-                        img={ticketingImg}
-                        title="I.T. (Intuitive Ticketing)"
-                        description="Ticketing Application with Style & Poise"
-                        language="Crafted with Next.js, Next Router & MongoDB"
-                        link="https://intuitive-ticketing.vercel.app/"
-                    />
-                    <ProjectItem
                         img={pomonotoImg}
                         title="Pomonoto!"
                         description="Combination Pomodoro Timer & Note Taking App"
                         language="Crafted with React.js, Express.js & MongoDB"
                         link="https://github.com/greenteaisgreat/Pomonoto"
+                    />
+                    <ProjectItem
+                        img={ticketingImg}
+                        title="I.T. (Intuitive Ticketing)"
+                        description="Ticketing Application with Style & Poise"
+                        language="Crafted with Next.js, Next Router & MongoDB"
+                        link="https://intuitive-ticketing.vercel.app/"
                     />
                 </div>
             </div>
