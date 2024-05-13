@@ -2,8 +2,8 @@ import React from 'react';
 import ProjectItem from './ProjectItem';
 import prevueImg from '../assets/prevue.png';
 import pomonotoImg from '../assets/pomonoto.png';
-import weatherImg from '../assets/weatherIO.png';
 import ticketingImg from '../assets/ticketing.png';
+import wurdleImg from '../assets/wurdle.png';
 
 const Projects = () => {
     return (
@@ -41,11 +41,11 @@ const Projects = () => {
                         link="https://intuitive-ticketing.vercel.app/"
                     />
                     <ProjectItem
-                        img={weatherImg}
-                        title="Weather.io"
-                        description="Check the Weather Instantly! Powered by OpenWeatherMap"
+                        img={wurdleImg}
+                        title="Würdle"
+                        description="Like Wordle, But Way Better"
                         language="Crafted with React.js, Express.js & PostgreSQL"
-                        link="https://github.com/Weather-io/Weather.io"
+                        link="https://wvvrdle.vercel.app/"
                     />
                     <ProjectItem
                         img={pomonotoImg}
