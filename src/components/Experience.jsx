@@ -7,7 +7,7 @@ const data = [
         title: 'Front End Engineer',
         company: 'Ameri-Cleaners',
         details:
-            "Freelance styling contract for a dry-cleaning business in Renton, WA. The major improvements to the existing site were accomplished via Tailwind CSS for utility-based class systems and incorporating React's Polygon component together with Google Maps API to create a geofence around with the perimeter of the business.\n\nThe latter was accomplished to increase CTA and goal conversion.",
+            "Freelance styling contract for a dry-cleaning business in Renton, WA. The major improvements to the existing site were accomplished via Tailwind CSS for utility-based class systems and incorporating React's Polygon component together with Google Maps API to create a geofence around the perimeter of the business.\n\nThe latter was accomplished to increase CTA and goal conversion.",
     },
     {
         year: 'OCT 2023 - Present',
