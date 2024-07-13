@@ -16,6 +16,13 @@ const data = [
         details:
             'Open-source contribution for PreVue, a prototyping tool for Vue engineers to reduce the overhead commonly found within CI/CD pipelines between designers and developers. Created with Vue.js, PreVue is a fullstack application that allows for designers to harness their creative potential and immediately deliver the overall structure to developers who can begin two-steps ahead of the ideation process. I collaborated with a team for the third iterative version of PreVue and we received over 100 stars on our GitHub repository following the second week post-launch.',
     },
+    {
+        year: 'APR 2021 - Present',
+        title: 'Full Stack Freelancer',
+        company: 'Self-Employed',
+        details:
+            "I've built numerous applications across the stack for both individuals, as well as companies. The majority of the technologies I've used to do so involve JavaScript, React and Next.js for the front end and Node.js with Express for back end processes. My preferred databases are MongoDB or PostgreSQL.",
+    },
 ];
 
 const Experience = () => {
