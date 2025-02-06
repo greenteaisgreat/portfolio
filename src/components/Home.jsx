@@ -24,7 +24,7 @@ const Home = () => {
                                     `I'm a Full Stack Engineer`,
                                     1000,
                                     `I'm a`,
-                                    () => setTextColor('#3A3698'),
+                                    () => setTextColor('#0079FF'),
                                     `I'm a Back End Engineer`,
                                     1000,
                                     `I'm a`,
