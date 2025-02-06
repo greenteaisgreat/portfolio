@@ -5,7 +5,7 @@ import { FaDev } from 'react-icons/fa';
 import { RxLinkedinLogo } from 'react-icons/rx';
 
 const Home = () => {
-    const [textColor, setTextColor] = useState('#3A3698');
+    const [textColor, setTextColor] = useState('#AF47D2');
     return (
         <div
             id="home"
@@ -49,7 +49,7 @@ const Home = () => {
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#3A3698'),
+                                    () => setTextColor('#AF47D2'),
                                 ]}
                                 speed={50}
                                 style={{
