@@ -29,7 +29,7 @@ const Home = () => {
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#06D001'),
+                                    () => setTextColor('#059212'),
                                     `I'm a Front End Engineer`,
                                     1000,
                                     `I'm a`,
@@ -49,7 +49,7 @@ const Home = () => {
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#0079FF'),
+                                    () => setTextColor('#3A3698'),
                                 ]}
                                 speed={50}
                                 style={{
