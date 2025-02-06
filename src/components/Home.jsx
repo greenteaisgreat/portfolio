@@ -16,7 +16,7 @@ const Home = () => {
                     <h1 className="text-4xl font-bold text-gray-900">
                         Howdy! My name is Nathan
                     </h1>
-                    <h2 className="xs:text-lg mt-4 text-sm sm:items-start">
+                    <h2 className="mt-4 text-sm xs:text-lg sm:items-start">
                         <div style={{ color: textColor }}>
                             <TypeAnimation
                                 sequence={[
@@ -24,27 +24,27 @@ const Home = () => {
                                     `I'm a Full Stack Engineer`,
                                     1000,
                                     `I'm a`,
-                                    () => setTextColor('#db567b'),
+                                    () => setTextColor('#0079FF'),
                                     `I'm a Back End Engineer`,
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#278199'),
+                                    () => setTextColor('#00DFA2'),
                                     `I'm a Front End Engineer`,
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#039917'),
+                                    () => setTextColor('#F6FA70'),
                                     `I'm a Programmer`,
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#c41061'),
+                                    () => setTextColor('#FF0060'),
                                     `I'm a Solderer`,
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#218C9E'),
+                                    () => setTextColor('#7C00FE'),
                                     `I'm a Musician`,
                                     1000,
                                     `I'm a`,
