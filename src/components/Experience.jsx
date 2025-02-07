@@ -3,6 +3,13 @@ import ExpItem from './ExpItem';
 
 const data = [
     {
+        year: 'JUL 2024 - Present',
+        title: 'Full Stack Engineer',
+        company: 'Open Austin',
+        details:
+            "Open-source contributor for a revamped room-booking feature for the Austin Public Library's website. Notable contributions include leveraging Remix's nested routing to increase page responsivity, integrating Remix's data loading techniques to run in parallel from servers for increased performance and attaining a 30% increase in user satisfaction via overall UI improvements.",
+    },
+    {
         year: 'JAN 2024 - MAY 2024',
         title: 'Front End Engineer',
         company: 'Ameri-Cleaners',
@@ -10,7 +17,7 @@ const data = [
             "Freelance styling contract for a dry-cleaning business in Renton, WA. The major improvements to the existing site were accomplished via Tailwind CSS for utility-based class systems and incorporating React's Polygon component together with Google Maps API to create a geofence around the perimeter of the business.\n\nThe latter was accomplished to increase CTA and goal conversion.",
     },
     {
-        year: 'OCT 2023 - Present',
+        year: 'OCT 2023 - JUL 2024',
         title: 'Full Stack Engineer',
         company: 'OS Labs',
         details:
