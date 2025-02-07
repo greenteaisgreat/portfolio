@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import prevueImg from '../assets/prevue.png';
-import pomonotoImg from '../assets/pomonoto.png';
 import ticketingImg from '../assets/ticketing.png';
 import wurdleImg from '../assets/wurdle.png';
 import aplImg from '../assets/apl.png';
@@ -29,8 +28,8 @@ const Projects = () => {
                 <div className="-sm:grid-cols-2 grid gap-12 md:grid-cols-2">
                     <ProjectItem
                         img={aplImg}
-                        title="Austin Public Library — Room Booking Feature"
-                        description="Revamped APL's Booking Process to be More Responsive, Effective and User-Friendly"
+                        title="Austin Public Library"
+                        description="Revamped APL's Room Booking Process"
                         language="Crafted with Remix, Tailwind-USWDS and MapBox"
                         link="https://library.austintexas.gov/meeting-rooms/"
                     />
@@ -47,13 +46,6 @@ const Projects = () => {
                         description="Like Wordle, But Way Better"
                         language="Crafted with React.js, Express.js & PostgreSQL"
                         link="https://wvvrdle.vercel.app/"
-                    />
-                    <ProjectItem
-                        img={pomonotoImg}
-                        title="Pomonoto!"
-                        description="Combination Pomodoro Timer & Note Taking App"
-                        language="Crafted with React.js, Express.js & MongoDB"
-                        link="https://github.com/greenteaisgreat/Pomonoto"
                     />
                     <ProjectItem
                         img={ticketingImg}
