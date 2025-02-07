@@ -4,6 +4,7 @@ import prevueImg from '../assets/prevue.png';
 import pomonotoImg from '../assets/pomonoto.png';
 import ticketingImg from '../assets/ticketing.png';
 import wurdleImg from '../assets/wurdle.png';
+import aplImg from '../assets/apl.png';
 
 const Projects = () => {
     return (
@@ -26,6 +27,13 @@ const Projects = () => {
                     Here's a sample of some of my recent works:
                 </p>
                 <div className="-sm:grid-cols-2 grid gap-12 md:grid-cols-2">
+                    <ProjectItem
+                        img={aplImg}
+                        title="Austin Public Library — Room Booking Feature"
+                        description="Revamped APL's Booking Process to be More Responsive, Effective and User-Friendly"
+                        language="Crafted with Remix, Tailwind-USWDS and MapBox"
+                        link="https://library.austintexas.gov/meeting-rooms/"
+                    />
                     <ProjectItem
                         img={prevueImg}
                         title="PreVue3"
