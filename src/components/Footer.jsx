@@ -15,7 +15,7 @@ const Footer = () => {
                 <span className="p-1 pr-2">
                     <img src={heart} alt="heart" className="h-4 w-4" />
                 </span>
-                <div className="">by Nathan Bornstein © 2024</div>
+                <div className="">by Nathan Bornstein © 2025</div>
             </div>
         </footer>
     );
