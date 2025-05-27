@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { CgMenuMotion } from 'react-icons/cg';
 import { BiSolidHomeHeart } from 'react-icons/bi';
 import { PiCodeBlockBold } from 'react-icons/pi';
@@ -8,19 +8,35 @@ import { LuHeartHandshake } from 'react-icons/lu';
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false);
-    const handleNav = () => {
+    const navRef = useRef(null);
+
+    function handleNav() {
         setNav(!nav);
-    };
+    }
+
+    useEffect(() => {
+        function handleOutsideClick(e) {
+            if (navRef.current && navRef.current.contains(e.target)) {
+                setNav(false);
+            }
+        }
+        document.addEventListener('click', handleOutsideClick);
+
+        return () => document.removeEventListener('click', handleOutsideClick);
+    }, []);
 
     return (
-        <>
+        <div>
             <CgMenuMotion
                 onClick={handleNav}
                 className="fixed right-4 top-4 z-[99] cursor-pointer md:hidden"
                 size={50}
             />
             {nav ? (
-                <div className="fixed z-20 flex h-screen w-full flex-col items-center justify-center bg-white/50">
+                <div
+                    ref={navRef}
+                    className="fixed z-20 flex h-screen w-full flex-col items-center justify-center bg-white/50"
+                >
                     <a
                         onClick={handleNav}
                         href="#home"
@@ -100,7 +116,7 @@ const Sidenav = () => {
                     </a>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
