@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ExpItem = ({ year, title, company, details }) => {
     return (
         <ol className="relative flex flex-col border-l border-stone-300 pt-8 md:flex-row">

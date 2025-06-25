@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Contact = () => {
     return (
         <div id="contact" className="m-auto max-w-[1040px] p-4 py-16 md:pl-20">

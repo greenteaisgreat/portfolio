@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ProjectItem = ({ img, title, language, description, link }) => {
     return (
         <div className="delay-40 group relative flex h-full w-full items-center justify-center rounded-xl from-portafino-100 to-portage-300 transition duration-300 hover:-translate-y-1 hover:bg-gradient-to-r">

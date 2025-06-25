@@ -1,4 +1,3 @@
-import React from 'react';
 import ExpItem from './ExpItem';
 
 const data = [

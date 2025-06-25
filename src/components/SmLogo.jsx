@@ -1,4 +1,3 @@
-import React from 'react';
 import smLogo from '../assets/sm-logo.svg';
 
 const SmLogo = () => {

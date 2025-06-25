@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectItem from './ProjectItem';
 import prevueImg from '../assets/prevue.png';
 import ticketingImg from '../assets/ticketing.png';

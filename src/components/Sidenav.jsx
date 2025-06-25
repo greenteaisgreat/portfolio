@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { CgMenuMotion } from 'react-icons/cg';
 import { BiSolidHomeHeart } from 'react-icons/bi';
 import { PiCodeBlockBold } from 'react-icons/pi';

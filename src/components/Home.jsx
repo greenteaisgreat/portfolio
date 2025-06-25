@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { TfiGithub } from 'react-icons/tfi';
 import { FaDev } from 'react-icons/fa';
