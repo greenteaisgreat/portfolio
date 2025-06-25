@@ -30,7 +30,7 @@ const Projects = () => {
                         img={aplImg}
                         title="Austin Public Library"
                         description="Revamped APL's Room Booking Process"
-                        language="Crafted with Remix, Tailwind-USWDS and MapBox"
+                        language="Crafted with React Router, Tailwind-USWDS and MapBox"
                         link="https://library.austintexas.gov/meeting-rooms/"
                     />
                     <ProjectItem
