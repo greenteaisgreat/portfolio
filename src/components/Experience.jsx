@@ -20,7 +20,7 @@ const data = [
         title: 'Full Stack Engineer',
         company: 'OS Labs',
         details:
-            'Open-source contribution for PreVue, a prototyping tool for Vue engineers to reduce the overhead commonly found within CI/CD pipelines between designers and developers. Created with Vue.js, PreVue is a fullstack application that allows for designers to harness their creative potential and immediately deliver the overall structure to developers who can begin two-steps ahead of the ideation process. I collaborated with a team for the third iterative version of PreVue and we received over 100 stars on our GitHub repository following the second week post-launch.',
+            'Open-source contribution for PreVue, a prototyping tool for Vue engineers to reduce the overhead commonly found within CI/CD pipelines between designers and developers. PreVue allows for designers to harness their creative potential and immediately deliver the overall structure to developers who can begin two-steps ahead of the ideation process. I collaborated with a team of 3 to develop the third iteration of PreVue and we received over 100 stars on our GitHub repository following the second week post-launch.',
     },
     {
         year: 'APR 2021 - Present',
