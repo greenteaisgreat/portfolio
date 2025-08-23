@@ -6,7 +6,7 @@ const data = [
         title: 'Full Stack Engineer',
         company: 'Open Austin',
         details:
-            "Open-source contributor for a revamped room-booking feature for the Austin Public Library's website. Notable contributions include leveraging Remix's nested routing to increase page responsivity, integrating Remix's data loading techniques to run in parallel from servers for increased performance and attaining a 30% increase in user satisfaction via overall UI improvements.",
+            "Open-source contributor for a revamped room-booking feature for the Austin Public Library's website. Notable contributions include leveraging React Router's nested routing to increase page responsivity, integrating React Router's data loading techniques to run in parallel from servers for increased performance and attaining a 30% increase in user satisfaction via overall UI improvements.",
     },
     {
         year: 'JAN 2024 - MAY 2024',
