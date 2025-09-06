@@ -44,7 +44,7 @@ const Home = () => {
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#EB5B00'),
+                                    () => setTextColor('#F94C10'),
                                     `I'm a Musician`,
                                     1000,
                                     `I'm a`,
