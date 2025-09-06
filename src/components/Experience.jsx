@@ -27,7 +27,7 @@ const data = [
         title: 'Full Stack Freelancer',
         company: 'Self-Employed',
         details:
-            "I've built numerous applications across the stack for both individuals, as well as companies. The majority of the technologies I've used to do so involve JavaScript, React and Next.js for the front end and Node.js with Express for back end processes. My preferred databases are MongoDB or PostgreSQL.",
+            "I've built numerous applications across the stack for both individuals, as well as companies. The majority of the technologies I've used to do so involve JavaScript, React or Next.js for the front end and Node.js with Express for back end processes. My preferred databases are MongoDB or PostgreSQL.",
     },
 ];
 
