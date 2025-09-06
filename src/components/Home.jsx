@@ -44,12 +44,12 @@ const Home = () => {
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#7C00FE'),
+                                    () => setTextColor('#FF714B'),
                                     `I'm a Musician`,
                                     1000,
                                     `I'm a`,
                                     50,
-                                    () => setTextColor('#AF47D2'),
+                                    () => setTextColor('#7C00FE'),
                                 ]}
                                 speed={50}
                                 style={{
